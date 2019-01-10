@@ -28,6 +28,7 @@
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "dev": "npm run test && npm run eslint &&  nodemon src/",
     "start": "node src/",
+    "production": "NODE_ENV=production node src/",
     "mocha": "mocha test/ --recursive --exit"
   },
   "dependencies": {
