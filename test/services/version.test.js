@@ -1,4 +1,6 @@
 /* eslint-disable node/no-deprecated-api */
+/* global describe it */
+
 const assert = require('assert');
 const feathers = require('@feathersjs/feathers');
 const hook = require('../../src/hooks/version');
