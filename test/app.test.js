@@ -1,11 +1,12 @@
 /* eslint-disable node/no-deprecated-api */
+/* global describe it before after */
+
 const assert = require('assert');
 const rp = require('request-promise');
 const url = require('url');
 const app = require('../src/app');
 
 const port = app.get('port') || 3030;
-/* global describe it */
 
 const getUrl = pathname => url.format({
   hostname: app.get('host') || 'localhost',

@@ -1,5 +1,5 @@
 /* eslint-disable node/no-deprecated-api */
-/* global describe it */
+/* global describe it beforeEach */
 
 const assert = require('assert');
 const feathers = require('@feathersjs/feathers');
